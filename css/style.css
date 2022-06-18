@@ -46,19 +46,27 @@ header{
   width: 250px;
   height: 250px;
   background: #8c2727;
+  position: relative;
   float: left;
 }
 
 .right_inner{
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+.right_inner_box{
   width: 140px;
   height: 40px;
   background: #ff863f;
   border: #ffffff solid 5px;
-  margin: 0 auto 10px 40px;
+  margin-bottom: 10px;
+  
 }
 
-.right_inner:first-of-type{
-  margin-top: 40px;
+.right_inner_box:last-of-type{
+  margin-bottom: 0;
 }
 
 
